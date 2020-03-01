@@ -1,14 +1,11 @@
-# A Guide to Use HTTP Clients Library In Rust
-This repository contains an example of how to use HTTP client library in Rust.
+# A Beginner Guide to Rust HTTP Client Libraries
+
+This repository contains an example of how to use HTTP client libraries in Rust.
 
 We will start with low level library called `Hyper` and move up with high-level
 library called `reqwest`.
 
-Libraries:
-- Hyper
-- reqwest
-
-You can add more library in the issue.
+So, let's start with `GET` request.
 
 # GET Request
 
@@ -52,4 +49,4 @@ Maybe you are beginner like me and have the following questions:
 1. What is `#[tokio::main]` ? Why is there?
 2. Why returns `Result<(), Box<dyn std::error::Error + Send + Sync>>` ?
 
-See you next time
+See you next time.
